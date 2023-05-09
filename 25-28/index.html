@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <ul id="notes">
+                <li data-key="1">
+                    <span class="open">запись 1</span>
+                    <span class="remove">X</span>
+                </li>
+                <li data-key="2">
+                    <span class="open">запись 2</span>
+                    <span class="remove">X</span>
+                </li>
+                <li data-key="3">
+                    <span class="open">запись 3</span>
+                    <span class="remove">X</span>
+                </li>
+            </ul>
+            <div id="create">
+                <button id="newNote">новая запись</button>
+            </div>
+        </div>
+        <div id="text">
+            <textarea id="area"></textarea>
+            <button data-mode="create" id="save">сохранить</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
